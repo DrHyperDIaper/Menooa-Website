@@ -3,7 +3,7 @@ export const siteConfig = {
   description:
     "SDE Intern at Amazon. Previously at Walmart. Studying CS + Business Administration at the University of California, Irvine.",
   author: "Eric Minassian",
-  url: "https://www.ericminassian.com",
+  url: "https://www.menooaavrand.com/",
   themeColor: "#111010",
 } as const;
 
