@@ -11,11 +11,15 @@ export const personalConfig = {
   name: "menooa",
   emoji: "👋",
   description: `
-  I currently work as a Lead Steering Engineer at [Cal Sol](https://calsol.berkeley.edu/),
+  I currently work as a Lead Steering Engineer at [Cal Sol](https://calsol.berkeley.edu/), on [Excalibur](https://calsol.berkeley.edu/vehicles/) and Gen 11 Vehicle.
   
   I'm currently studying Mechanical Engineering at [University of California, Berkeley](https://me.berkeley.edu/).`,
   externalLinks: [
     { href: "https://www.linkedin.com/in/menooaavrand/", text: "linkedin" },
     { href: "mailto:menooaavrand@berkeley.edu", text: "email" },
+    { href: "/Menooa_Avrand_resume.pdf", text: "resume" },
+    { href: "/Menooa_Avrand_resume.pdf", text: "portfolio" },
+
+
   ],
 } as const;
