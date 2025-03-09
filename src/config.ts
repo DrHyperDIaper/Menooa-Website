@@ -1,7 +1,7 @@
 export const siteConfig = {
   title: "Menooa Avrand",
   description:
-    "SDE Intern at Amazon. Previously at Walmart. Studying CS + Business Administration at the University of California, Irvine.",
+    "Lead Steering Engineer at CalSol. Studying Mech Engr at the University of California, Berkeley.",
   author: "Menooa Avrand",
   url: "https://www.menooaavrand.com",
   themeColor: "#111010",
