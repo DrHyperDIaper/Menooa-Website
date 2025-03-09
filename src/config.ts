@@ -11,7 +11,7 @@ export const personalConfig = {
   name: "menooa",
   emoji: "👋",
   description: `
-  I currently work as a Lead Steering Engineer at [Cal Sol](https://calsol.berkeley.edu/), on [Excalibur](https://calsol.berkeley.edu/vehicles/) and the upcoming Gen 11 Vehicle.
+  I currently work as a Lead Steering Engineer at [Cal Sol](https://calsol.berkeley.edu/), on [Excalibur](https://calsol.berkeley.edu/vehicles/) and upcoming Gen 11 Vehicle.
   
   I'm currently studying Mechanical Engineering at [University of California, Berkeley](https://me.berkeley.edu/).`,
   externalLinks: [
