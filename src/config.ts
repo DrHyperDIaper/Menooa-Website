@@ -18,7 +18,7 @@ export const personalConfig = {
     { href: "https://www.linkedin.com/in/menooaavrand/", text: "linkedin" },
     { href: "mailto:menooaavrand@berkeley.edu", text: "email" },
     { href: "/Menooa_Avrand_resume.pdf", text: "resume" },
-    { href: "/Menooa_Avrand_resume.pdf", text: "portfolio" },
+    { href: "/Menooa Avrand Project Portfolio.pdf", text: "portfolio" },
 
 
   ],
