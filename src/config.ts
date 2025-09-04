@@ -11,7 +11,7 @@ export const personalConfig = {
   name: "menooa",
   emoji: "👋",
   description: `
-  I currently work as a Dynamics Project Manager at [Cal Sol](https://calsol.berkeley.edu/). I previously worked at [Ferrari] as a Mechanical Engineering Intern.
+  I currently work as a Dynamics Project Manager at [Cal Sol](https://calsol.berkeley.edu/). I previously worked at [Ferrari](https://www.ferrari.com/en-US) as a Mechanical Engineering Intern.
   
   I'm currently studying Mechanical Engineering at [University of California, Berkeley](https://me.berkeley.edu/).`,
   externalLinks: [
