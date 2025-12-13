@@ -1,7 +1,7 @@
 export const siteConfig = {
   title: "Menooa Avrand",
   description:
-    "Lead Steering Engineer at CalSol. Studying Mech Engr at the University of California, Berkeley.",
+    "Vehicle Hardware and Dynamics Team Lead at CalSol. Studying Mech Engr at the University of California, Berkeley.",
   author: "Menooa Avrand",
   url: "https://www.menooaavrand.com",
   themeColor: "#111010",
@@ -11,7 +11,7 @@ export const personalConfig = {
   name: "menooa",
   emoji: "👋",
   description: `
-  I currently work as a Dynamics Project Manager at [Cal Sol](https://calsol.berkeley.edu/). I previously worked at [Ferrari](https://www.ferrari.com/en-US) as a Mechanical Engineering Intern.
+  I currently work as a Vehicle Hardware and Dynamics Team Lead at [Cal Sol](https://calsol.berkeley.edu/). I previously worked at [Ferrari](https://www.ferrari.com/en-US) as a Mechanical Engineering Intern.
   
   I'm currently studying Mechanical Engineering at [University of California, Berkeley](https://me.berkeley.edu/).`,
   externalLinks: [
