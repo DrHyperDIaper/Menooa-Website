@@ -13,44 +13,42 @@ import { parseDescription } from "../lib/utils";
       {personalConfig.emoji}
     </h1>
 
-    <div class="prose prose-neutral dark:prose-invert prose-p:my-1">
-      {
-        parseDescription(personalConfig.description).map(async (part) => {
-          if (typeof part === "string") {
-            // Convert newlines to real line breaks
-            return part.split("\n").map((line, i, arr) => (
-              <>
-                {line}
-                {i < arr.length - 1 && <br />}
-              </>
-            ));
+    <div class="prose prose-neutral dark:prose-invert prose-p:my-3">
+  {
+    personalConfig.description
+      .split("\n\n")
+      .map((paragraph) => (
+        <p>
+          {
+            parseDescription(paragraph).map(async (part) => {
+              if (typeof part === "string") {
+                return part;
+              }
+
+              try {
+                const Logo = (await import(`../assets/logos/${part.logo}.astro`))
+                  .default;
+
+                return (
+                  <Badge href={part.href}>
+                    <Logo />
+                    <span class="no-prose">{part.text}</span>
+                  </Badge>
+                );
+              } catch (error) {
+                return (
+                  <Badge href={part.href} noLogo>
+                    <span class="no-prose">{part.text}</span>
+                  </Badge>
+                );
+              }
+            })
           }
+        </p>
+      ))
+  }
+</div>
 
-          try {
-            const Logo = (await import(`../assets/logos/${part.logo}.astro`))
-              .default;
-
-            return (
-              <Badge href={part.href}>
-                <Logo />
-                <span class="no-prose">{part.text}</span>
-              </Badge>
-            );
-          } catch (error) {
-            console.error(
-              `Failed to load logo for ${part.text}. File ${`${part.logo}.astro`} not found.\n`,
-              error
-            );
-
-            return (
-              <Badge href={part.href} noLogo>
-                <span class="no-prose">{part.text}</span>
-              </Badge>
-            );
-          }
-        })
-      }
-    </div>
 
     <ul
       class="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300"
