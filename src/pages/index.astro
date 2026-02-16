@@ -13,7 +13,7 @@ import { parseDescription } from "../lib/utils";
       {personalConfig.emoji}
     </h1>
 
-    <div class="prose prose-neutral dark:prose-invert">
+    <div class="prose prose-neutral dark:prose-invert prose-p:my-3">
       {
         parseDescription(personalConfig.description).map(async (part) => {
           if (typeof part === "string") {
