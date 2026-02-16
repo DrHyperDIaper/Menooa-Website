@@ -16,6 +16,7 @@ I'm a mechanical engineer focused on performance-critical mechanical systems and
 
 As Steering & Vehicle Hardware Lead for [Cal Sol](https://calsol.berkeley.edu/) at UC Berkeley, I led the end-to-end development of race-critical systems - from design and structural validation through manufacturing and on-vehicle integration.
 
+
 Previously, I worked at [Ferrari](https://www.ferrari.com/en-US) as a Mechanical Engineering Intern, contributing to vehicle subsystem development within a high-performance automotive environment.
 
 
