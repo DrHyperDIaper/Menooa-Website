@@ -11,17 +11,13 @@ export const personalConfig = {
   name: "Menooa",
   emoji: "👋",
   description: `
-I'm a mechanical engineer focused on performance-critical mechanical systems and hardware design. 
+I'm a mechanical engineer focused on performance-critical mechanical systems and hardware design.
 
+As Steering & Vehicle Hardware Lead for <a href="https://calsol.berkeley.edu/" target="_blank">Cal Sol</a> at UC Berkeley, I led the end-to-end development of race-critical systems - from design and structural validation through manufacturing and on-vehicle integration.
 
-As Steering & Vehicle Hardware Lead for [Cal Sol](https://calsol.berkeley.edu/) at UC Berkeley, I led the end-to-end development of race-critical systems - from design and structural validation through manufacturing and on-vehicle integration.
+Previously, I worked at <a href="https://www.ferrari.com/en-US" target="_blank">Ferrari</a> as a Mechanical Engineering Intern, contributing to vehicle subsystem development within a high-performance automotive environment.
 
-
-Previously, I worked at [Ferrari](https://www.ferrari.com/en-US) as a Mechanical Engineering Intern, contributing to vehicle subsystem development within a high-performance automotive environment.
-
-
-I studied Mechanical Engineering at the [University of California, Berkeley](https://me.berkeley.edu/), graduating magna cum laude.
-
+I studied Mechanical Engineering at the <a href="https://me.berkeley.edu/" target="_blank">University of California, Berkeley</a>, graduating magna cum laude.
 
 Explore my engineering work below - feel free to reach out.
 `,
