@@ -20,8 +20,7 @@ As Steering & Vehicle Hardware Lead for [Cal Sol](https://calsol.berkeley.edu/) 
 Previously, I worked at [Ferrari](https://www.ferrari.com/en-US) as a Mechanical Engineering Intern, contributing to vehicle subsystem development within a high-performance automotive environment.
 
 
-I also built and maintain [BoltKit](boltkit.org).
-
+I also built and maintain [BoltKit](https://boltkit.org/).
 
 I studied Mechanical Engineering at the [University of California, Berkeley](https://me.berkeley.edu/), graduating magna cum laude.
 
