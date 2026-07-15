@@ -1,46 +1,23 @@
 ---
-interface Props {
-  href?: string;
-}
-
-const { href = "/" } = Astro.props;
+// BoltKitIcon.astro
 ---
 
-<a
-  href={href}
-  class="inline-flex items-center gap-2.5 no-underline"
-  aria-label="BoltKit home"
+<div
+  class="flex h-7 w-7 items-center justify-center rounded-md bg-blue-600 shadow-sm shadow-blue-600/25"
 >
-  <span
-    class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-blue-600 shadow-md shadow-blue-600/25"
+  <svg
+    class="h-3.5 w-3.5 text-white"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2.25"
+    aria-hidden="true"
   >
-    <svg
-      class="h-[18px] w-[18px] text-white"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2.25"
-      aria-hidden="true"
-    >
-      <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none" />
+    <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none" />
 
-      <path
-        stroke-linecap="round"
-        d="
-          M12 3.5v3
-          M12 17.5v3
-          M3.5 12h3
-          M17.5 12h3
-          M5.99 5.99l2.12 2.12
-          M15.89 15.89l2.12 2.12
-          M5.99 18.01l2.12-2.12
-          M15.89 8.11l2.12-2.12
-        "
-      />
-    </svg>
-  </span>
-
-  <span class="text-lg font-bold tracking-tight text-slate-900 dark:text-white">
-    BoltKit
-  </span>
-</a>
+    <path
+      stroke-linecap="round"
+      d="M12 3.5v3M12 17.5v3M3.5 12h3M17.5 12h3M5.99 5.99l2.12 2.12M15.89 15.89l2.12 2.12M5.99 18.01l2.12-2.12M15.89 8.11l2.12-2.12"
+    />
+  </svg>
+</div>
